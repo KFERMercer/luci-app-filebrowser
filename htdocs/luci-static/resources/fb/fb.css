@@ -41,21 +41,21 @@
 }
 .fb-container .file-icon:before, .fb-container .folder-icon:before, .fb-container .link-icon:before {
     display: inline-block;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 16px;
+    height: 16px;
     content: '';
     background-size: contain;
     margin: 0 0.5rem 0 1rem;
     vertical-align: middle;
 }
 .fb-container .file-icon:before {
-    background-image: url(file-icon.png);
+    background-image: url(../cbi/file.gif);
 }
 .fb-container .folder-icon:before {
-    background-image: url(folder-icon.png);
+    background-image: url(../cbi/folder.gif);
 }
 .fb-container .link-icon:before {
-    background-image: url(link-icon.png);
+    background-image: url(../cbi/link.gif);
 }
 @media screen and (max-width: 480px) {
     .fb-container .upload-file {
